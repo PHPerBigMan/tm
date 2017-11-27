@@ -1,0 +1,105 @@
+[ 2017-05-02T09:33:04+08:00 ] 223.95.91.82 /Home/goods/detail/?id=77
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0006s ]
+
+[ 2017-05-02T09:33:04+08:00 ] 223.95.91.82 /Home/weixin/login/?url=%2FHome%2Fgoods%2Fdetail%2F%3Fid%3D77
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-05-02T09:33:05+08:00 ] 223.95.91.82 /Home/weixin/callback/?code=031lE1RV1Bas6T0Zq5OV11oWQV1lE1RY&state=e74d28578ce707457ee55d915a947a2af393fe56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuDVtH0KrxbC4E7Au5Hg_Tj8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user` (`openid`,`nickname`,`integral`,`shopid`,`img`) VALUES ('oGklKuDVtH0KrxbC4E7Au5Hg_Tj8','Bottle-丹','0','1','http://wx.qlogo.cn/mmopen/FrA4rx9YickHV1bOfj0ictDRYQn1cib80uR1KW9HZq2Gia6K9UvZeibKqzOlrJjst16nicP0axicUKic1AnTSEIGdawHdibe8bqAyvdvo/0') [ RunTime:0.0032s ]
+ERR: Think\Controller:reg方法不存在！
+
+[ 2017-05-02T09:33:14+08:00 ] 101.226.89.122 /Home/weixin/login/?url=%2FHome%2Fgoods%2Fdetail%2F%3Fid%3D77
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-05-02T11:18:27+08:00 ] 122.224.135.146 /Home/goods/detail/?id=64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0006s ]
+
+[ 2017-05-02T11:18:28+08:00 ] 122.224.135.146 /Home/weixin/login/?url=%2FHome%2Fgoods%2Fdetail%2F%3Fid%3D64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-05-02T11:18:38+08:00 ] 180.153.163.190 /Home/weixin/login/?url=%2FHome%2Fgoods%2Fdetail%2F%3Fid%3D64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-05-02T17:23:55+08:00 ] 140.205.205.4 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-05-02T17:24:02+08:00 ] 140.205.205.4 /Home/weixin/login/?url=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+

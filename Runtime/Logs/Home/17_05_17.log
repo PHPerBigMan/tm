@@ -1,0 +1,1970 @@
+[ 2017-05-17T00:26:32+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-05-17T11:11:14+08:00 ] 117.185.27.102 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-05-17T11:11:14+08:00 ] 101.226.102.80 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-05-17T11:11:14+08:00 ] 101.226.89.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-05-17T11:11:15+08:00 ] 101.226.102.80 /Home/weixin/callback/?code=0815k8kh2tr6sG0RuGjh2eKrkh25k8kE&state=f3c21ddad30557f6a5c0d03736233a081ed4b159
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuM3bL5AebTQX8QA5kYhlfL4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`openid`,`nickname`,`integral`,`shopid`,`img`) VALUES ('oGklKuM3bL5AebTQX8QA5kYhlfL4','紫薇斗数','0','1','') [ RunTime:0.0037s ]
+ERR: Think\Controller:reg方法不存在！
+
+[ 2017-05-17T11:11:20+08:00 ] 101.226.102.80 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2FHome%2Fcenter%2Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-05-17T11:11:20+08:00 ] 101.226.102.80 /Home/weixin/callback/?code=001xHLae25dv5B0xNTae2ulzae2xHLad&state=fa009248035ef479af3069875ab4456f35392209
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuM3bL5AebTQX8QA5kYhlfL4' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-17T11:11:21+08:00 ] 101.226.102.80 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-05-17T11:11:24+08:00 ] 101.226.33.201 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-05-17T11:11:25+08:00 ] 140.207.54.215 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2FHome%2Fcenter%2Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-05-17T11:11:25+08:00 ] 101.226.102.80 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-05-17T11:11:29+08:00 ] 180.163.2.119 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2FHome%2Fcenter%2Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-05-17T11:11:29+08:00 ] 101.226.102.80 /Home/order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+NOTIC: [2] Missing argument 2 for Home\Model\OrderModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/OrderModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\OrderModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/OrderModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/OrderModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/OrderModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT `type`,`uniqueid`,`order_state`,`addressid`,`orderid`,`money`,`carriage`,`evaluation_state`,`refund_state`,`return_status` FROM `order` WHERE `shopid` = 1 AND `uid` = 285 ORDER BY create_time desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: temp /mnt/www/html/huangwei/tmls/App/Home/Controller/OrderController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 64 行.
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 68 行.
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 72 行.
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 76 行.
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 80 行.
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 87 行.
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 143 行.
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 199 行.
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 255 行.
+NOTIC: [8] Undefined index: types /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/f0a928cac3830319ed574d5e0d8e74de.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-05-17T11:11:31+08:00 ] 101.226.51.226 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: user /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/6932e7c9012ebe4334aa99267c0b2e4b.php 第 57 行.
+NOTIC: [2] Illegal string offset 'member' /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/6932e7c9012ebe4334aa99267c0b2e4b.php 第 58 行.
+NOTIC: [8] Undefined index: user /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/6932e7c9012ebe4334aa99267c0b2e4b.php 第 61 行.
+NOTIC: [8] Undefined index: user /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/6932e7c9012ebe4334aa99267c0b2e4b.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-05-17T11:11:34+08:00 ] 101.226.102.80 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-05-17T11:11:35+08:00 ] 101.226.102.80 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-05-17T11:11:36+08:00 ] 140.207.54.215 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0001s ]
+
+[ 2017-05-17T11:11:37+08:00 ] 140.207.54.215 /Home/goods/xinpin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 65 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-05-17T11:11:41+08:00 ] 101.226.102.80 /Home/goods/xinpin.html?page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 6,6   [ RunTime:0.0001s ]
+
+[ 2017-05-17T11:11:45+08:00 ] 140.207.54.215 /Home/goods/xinpin.html?page=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 12,6   [ RunTime:0.0001s ]
+
+[ 2017-05-17T11:11:45+08:00 ] 101.226.66.172 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = null AND `uid` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-05-17T11:11:53+08:00 ] 140.207.54.215 /Home/goods/xinpin.html?page=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 18,6   [ RunTime:0.0001s ]
+
+[ 2017-05-17T11:11:54+08:00 ] 101.226.102.80 /Home/goods/xinpin.html?page=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 24,6   [ RunTime:0.0001s ]
+
+[ 2017-05-17T11:12:01+08:00 ] 140.207.54.215 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-05-17T11:12:03+08:00 ] 101.226.102.80 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0001s ]
+
+[ 2017-05-17T11:13:42+08:00 ] 101.226.102.80 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2FHome%2Fcenter%2Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-05-17T11:13:43+08:00 ] 101.226.102.80 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-05-17T11:13:53+08:00 ] 101.226.65.107 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: user /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/6932e7c9012ebe4334aa99267c0b2e4b.php 第 57 行.
+NOTIC: [2] Illegal string offset 'member' /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/6932e7c9012ebe4334aa99267c0b2e4b.php 第 58 行.
+NOTIC: [8] Undefined index: user /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/6932e7c9012ebe4334aa99267c0b2e4b.php 第 61 行.
+NOTIC: [8] Undefined index: user /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/6932e7c9012ebe4334aa99267c0b2e4b.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-05-17T11:24:26+08:00 ] 140.207.185.112 /Home/goods/xinpin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = null AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 65 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-05-17T11:42:16+08:00 ] 183.157.206.200 /Home/weixin/login/?url=https%3A%2F%2Fepeijing.cn%2Fapi%2FchzEWe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-05-17T11:42:25+08:00 ] 183.157.206.200 /Home/weixin/callback/?code=041o4fyv0MUNRd1bFcxv0kCkyv0o4fy2&state=65465bde3e14082dfeabf83db84cefc1de1719b0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuM3bL5AebTQX8QA5kYhlfL4' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-17T11:50:17+08:00 ] 183.157.206.200 /Home/weixin/login/?url=https%3A%2F%2Fepeijing.cn%2Fapi%2FchzEWe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-05-17T11:50:38+08:00 ] 183.157.206.200 /Home/weixin/login/?url=https%3A%2F%2Fepeijing.cn%2Fapi%2FchzEWe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-05-17T12:36:42+08:00 ] 112.17.243.187 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2FHome%2Fcenter%2Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-05-17T12:36:43+08:00 ] 112.17.243.187 /Home/weixin/callback/?code=061TbBPu0BZHcd16UkQu0gkyPu0TbBPU&state=f8d953e76f8631b0311955817efcc9f42c47e992
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuOlVRupJCJJOl3uQtE1bZ8E' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`openid`,`nickname`,`integral`,`shopid`,`img`) VALUES ('oGklKuOlVRupJCJJOl3uQtE1bZ8E','惠','0','1','http://wx.qlogo.cn/mmopen/qvviapYJvNfibYXhUIWGDLK3YQJGdLD3RMa43p8VVxVaowU5C0u9bHicXaHUkjw8odPiaQTPTQrBiaIwSGZ6qmcZkIn8mrx85oZOs/0') [ RunTime:0.0017s ]
+ERR: Think\Controller:reg方法不存在！
+
+[ 2017-05-17T12:36:46+08:00 ] 112.17.243.187 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2FHome%2Fuser%2Fkefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-05-17T12:36:47+08:00 ] 112.17.243.187 /Home/weixin/callback/?code=061HWtCh0ZiNlA1GRyEh0IYLCh0HWtCc&state=35a647afa5be1935ef3c516f6253d26fa8271cb1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuOlVRupJCJJOl3uQtE1bZ8E' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-17T12:36:47+08:00 ] 112.17.243.187 /Home/user/kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`nickname`,`img` FROM `user` WHERE `id` = 286 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-05-17T12:36:53+08:00 ] 112.17.243.187 /Home/weixin/login/?url=https%3A%2F%2Fepeijing.cn%2Fapi%2FchzEWe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-05-17T12:36:56+08:00 ] 101.226.33.208 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2FHome%2Fuser%2Fkefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-05-17T13:05:59+08:00 ] 140.205.201.38 /index.php?m=member&c=index&a=register&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+ERR: 非法操作:register
+
+[ 2017-05-17T13:09:29+08:00 ] 140.205.201.38 /index.php?m=wap&a=index&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-05-17T13:09:30+08:00 ] 140.205.201.38 /Home/weixin/login/?url=%2Findex.php%3Fm%3Dwap%26a%3Dindex%26siteid%3D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-05-17T14:37:51+08:00 ] 183.157.206.200 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-05-17T14:38:12+08:00 ] 183.157.206.200 /Home/weixin/callback/?code=051eQE472GwU9M0WR0672cUz472eQE4n&state=53d9a49f6d4f2b269b563d1744360fad03ba382b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuM3bL5AebTQX8QA5kYhlfL4' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-17T14:38:13+08:00 ] 183.157.206.200 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: fromto /mnt/www/html/huangwei/tmls/App/Home/Controller/IndexController.class.php 第 33 行.
+SQL: UPDATE `user` SET `first`='0',`second`='0',`three`='0',`isfix`='1' WHERE `id` = 285 [ RunTime:0.0031s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `carousel` [ RunTime:0.0003s ]
+SQL: SELECT `position`,`carouselimg`,`url` FROM `carousel` WHERE `shopid` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `custom_page` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `custom_page` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `shopid` = 1 AND `pid` = 0 AND `isshow` = 1 ORDER BY sort+1 desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `weixin_config` [ RunTime:0.0005s ]
+SQL: SELECT `value` FROM `weixin_config` WHERE `name` = 'phone' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: urls /mnt/www/html/huangwei/tmls/App/Common/Common/function.php 第 115 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 179 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 200 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 221 行.
+NOTIC: [8] Undefined variable: data /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 259 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-05-17T14:38:58+08:00 ] 101.226.51.229 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-05-17T14:40:54+08:00 ] 115.238.82.178 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2FHome%2Fcenter%2Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-05-17T14:40:55+08:00 ] 115.238.82.178 /Home/weixin/callback/?code=061Wq7942IWRqL0uSl7424AS842Wq79v&state=ea57a1273b10fc4933303292afeb952e7b6e7090
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuERNQMnNxP72mSvdqnd7rN0' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-17T14:40:55+08:00 ] 115.238.82.178 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-05-17T14:41:01+08:00 ] 183.157.206.200 /Home/goods/xinpin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 0,6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 65 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-05-17T14:41:03+08:00 ] 183.157.206.200 /Home/goods/xinpin?page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 6,6   [ RunTime:0.0003s ]
+
+[ 2017-05-17T14:41:04+08:00 ] 183.157.206.200 /Home/goods/xinpin?page=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 12,6   [ RunTime:0.0003s ]
+
+[ 2017-05-17T14:41:05+08:00 ] 183.157.206.200 /Home/goods/xinpin?page=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 18,6   [ RunTime:0.0003s ]
+
+[ 2017-05-17T14:41:06+08:00 ] 183.157.206.200 /Home/goods/xinpin?page=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 24,6   [ RunTime:0.0003s ]
+
+[ 2017-05-17T14:41:08+08:00 ] 183.157.206.200 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-05-17T14:41:08+08:00 ] 183.157.206.200 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0001s ]
+
+[ 2017-05-17T14:41:09+08:00 ] 183.157.206.200 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-05-17T14:41:16+08:00 ] 183.157.206.200 /Home/integral/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [2] Missing argument 2 for Home\Model\IntegralModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/IntegralModel.class.php 第 6 行.
+NOTIC: [2] Missing argument 3 for Home\Model\IntegralModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/IntegralModel.class.php 第 6 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/IntegralModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/IntegralModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `integral` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/IntegralController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/IntegralController.class.php 第 29 行.
+SQL: SELECT * FROM `integral` WHERE `uid` = 285 AND `shopid` = 1 ORDER BY integralid desc LIMIT 0,6   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-05-17T14:41:22+08:00 ] 183.157.206.200 /Home/love/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [2] Missing argument 2 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `love` [ RunTime:0.0004s ]
+SQL: SELECT `commodityid` FROM `love` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/LoveController.class.php 第 47 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/LoveController.class.php 第 48 行.
+SQL: SELECT * FROM `love` WHERE `shopid` = 1 AND `uid` = 285 ORDER BY loveid desc LIMIT 0,6   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-05-17T14:41:22+08:00 ] 183.157.206.200 /Home/love/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+NOTIC: [2] Missing argument 2 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `love` [ RunTime:0.0005s ]
+SQL: SELECT `commodityid` FROM `love` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/LoveController.class.php 第 47 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/LoveController.class.php 第 48 行.
+SQL: SELECT * FROM `love` WHERE `shopid` = 1 AND `uid` = 285 ORDER BY loveid desc LIMIT 0,6   [ RunTime:0.0001s ]
+
+[ 2017-05-17T14:41:26+08:00 ] 180.153.206.16 /Home/integral/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+NOTIC: [2] Missing argument 2 for Home\Model\IntegralModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/IntegralModel.class.php 第 6 行.
+NOTIC: [2] Missing argument 3 for Home\Model\IntegralModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/IntegralModel.class.php 第 6 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/IntegralModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/IntegralModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `integral` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/IntegralController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/IntegralController.class.php 第 29 行.
+SQL: SELECT * FROM `integral` WHERE `uid` = null AND `shopid` = null ORDER BY integralid desc LIMIT 0,6   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Illegal string offset 'integral' /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 79 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-05-17T14:41:31+08:00 ] 183.157.206.200 /Home/user/kefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`nickname`,`img` FROM `user` WHERE `id` = 285 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-05-17T14:41:32+08:00 ] 101.226.68.200 /Home/love/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2] Missing argument 2 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `love` [ RunTime:0.0005s ]
+SQL: SELECT `commodityid` FROM `love` WHERE `shopid` = null AND `uid` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/LoveController.class.php 第 47 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/LoveController.class.php 第 48 行.
+SQL: SELECT * FROM `love` WHERE `shopid` = null AND `uid` = null ORDER BY loveid desc LIMIT 0,6   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-05-17T14:42:04+08:00 ] 183.157.206.200 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-05-17T14:42:04+08:00 ] 183.157.206.200 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `carousel` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `custom_page` [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `weixin_config` [ RunTime:0.0003s ]
+SQL: SELECT `value` FROM `weixin_config` WHERE `name` = 'phone' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: urls /mnt/www/html/huangwei/tmls/App/Common/Common/function.php 第 115 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 179 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 200 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 221 行.
+NOTIC: [8] Undefined variable: data /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 259 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-05-17T14:42:08+08:00 ] 183.157.206.200 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-05-17T14:42:08+08:00 ] 183.157.206.200 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = 1 AND `uid` = 285  [ RunTime:0.0001s ]
+
+[ 2017-05-17T14:42:09+08:00 ] 183.157.206.200 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-05-17T14:42:11+08:00 ] 183.157.206.200 /Home/goods/xinpin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 65 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-05-17T14:42:14+08:00 ] 183.157.206.200 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `carousel` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `custom_page` [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `weixin_config` [ RunTime:0.0004s ]
+SQL: SELECT `value` FROM `weixin_config` WHERE `name` = 'phone' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: urls /mnt/www/html/huangwei/tmls/App/Common/Common/function.php 第 115 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 179 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 200 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 221 行.
+NOTIC: [8] Undefined variable: data /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 259 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-05-17T14:42:14+08:00 ] 101.226.125.111 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-05-17T14:42:14+08:00 ] 101.226.125.111 /Home/weixin/login/?url=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-05-17T14:49:08+08:00 ] 101.226.66.177 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-05-17T14:49:13+08:00 ] 101.226.66.177 /Home/weixin/login/?url=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-05-17T14:52:45+08:00 ] 101.226.33.223 /Home/goods/xinpin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 338 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/App/Home/Controller/GoodsController.class.php 第 339 行.
+SQL: SELECT `thumbnail`,`title`,`commodityid`,`original`,`current` FROM `commodity` WHERE `shopid` = null AND `type` = 1 AND `status` = 1 ORDER BY commodityid desc LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 65 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 66 行.
+NOTIC: [8] Undefined index: order /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/2ce7a546391e4d288c1913ac56e6f996.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-05-17T14:53:22+08:00 ] 101.226.65.108 /Home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CartModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CartModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 28 行.
+NOTIC: [8] Undefined index: size /mnt/www/html/huangwei/tmls/App/Home/Controller/CartController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE `shopid` = null AND `uid` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-05-17T17:04:58+08:00 ] 36.23.236.64 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2FHome%2Fuser%2Fkefu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-05-17T17:05:05+08:00 ] 36.23.236.64 /Home/weixin/callback/?code=041WHb5008Cg7D1Fpz600W15500WHb5n&state=f9e8691c17a4e6b79dbd959fa59a6c39353aaa13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+ERR: The key "access_token" could not be empty.
+
+[ 2017-05-17T17:14:22+08:00 ] 183.207.216.220 /Home/weixin/login/?url=https%3A%2F%2Fepeijing.cn%2Fapi%2FchzEWe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-05-17T17:14:23+08:00 ] 183.207.216.220 /Home/weixin/callback/?code=0015CbBu0tzj8f1IGcDu0soPAu05CbB3&state=96f46da079d84522744d760721aadaf34acc5b44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuAoXC9ZQwtQwSiyqvknB0LM' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-17T17:14:30+08:00 ] 183.207.216.220 /Home/goods/detail/?id=75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 75 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `carriage` [ RunTime:0.0003s ]
+SQL: SELECT `price` FROM `carriage` WHERE `carriageid` = 11 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `love` [ RunTime:0.0003s ]
+SQL: SELECT `commodityid` FROM `love` WHERE `shopid` = 1 AND `uid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 72 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 74 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `commodity_sku` [ RunTime:0.0003s ]
+SQL: SELECT `shuxingji` FROM `commodity_sku` WHERE `commodityid` = 75 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `weixin_config` [ RunTime:0.0006s ]
+SQL: SELECT `value` FROM `weixin_config` WHERE `name` = 'phone' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: urls /mnt/www/html/huangwei/tmls/App/Common/Common/function.php 第 115 行.
+NOTIC: [2] Illegal string offset 'title' /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 143 行.
+NOTIC: [8] Undefined variable: from /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-05-17T17:14:32+08:00 ] 101.226.33.238 /Home/weixin/login/?url=https%3A%2F%2Fepeijing.cn%2Fapi%2FchzEWe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-05-17T17:14:39+08:00 ] 61.151.218.118 /Home/goods/detail/?id=75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+
+[ 2017-05-17T17:14:39+08:00 ] 61.151.218.118 /Home/weixin/login/?url=%2FHome%2Fgoods%2Fdetail%2F%3Fid%3D75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-05-17T17:16:41+08:00 ] 112.17.246.93 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-05-17T17:16:42+08:00 ] 112.17.246.93 /Home/weixin/callback/?code=031nF8By1yHWEd0xzoAy1Fn9By1nF8B4&state=894d2cf36ada6e7c1cad3c03acf34bd99e1d7ebb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuMn3nykWhCXcZlRPQFVUhdg' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-17T17:16:42+08:00 ] 112.17.246.93 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `carousel` [ RunTime:0.0003s ]
+SQL: SELECT `position`,`carouselimg`,`url` FROM `carousel` WHERE `shopid` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `custom_page` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `custom_page` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `shopid` = 1 AND `pid` = 0 AND `isshow` = 1 ORDER BY sort+1 desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `weixin_config` [ RunTime:0.0003s ]
+SQL: SELECT `value` FROM `weixin_config` WHERE `name` = 'phone' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 179 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 200 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 221 行.
+NOTIC: [8] Undefined variable: data /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 259 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-05-17T17:16:49+08:00 ] 112.17.246.93 /Home/goods/detail/?id=76
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 76 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `carriage` [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `love` [ RunTime:0.0003s ]
+SQL: SELECT `commodityid` FROM `love` WHERE `shopid` = 1 AND `uid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 69 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 73 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 81 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `commodity_sku` [ RunTime:0.0003s ]
+SQL: SELECT `shuxingji` FROM `commodity_sku` WHERE `commodityid` = 76 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `weixin_config` [ RunTime:0.0003s ]
+SQL: SELECT `value` FROM `weixin_config` WHERE `name` = 'phone' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [2] Illegal string offset 'title' /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 143 行.
+NOTIC: [8] Undefined variable: from /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-05-17T17:16:58+08:00 ] 180.163.2.116 /Home/goods/detail/?id=76
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+
+[ 2017-05-17T17:16:58+08:00 ] 180.163.2.116 /Home/weixin/login/?url=%2FHome%2Fgoods%2Fdetail%2F%3Fid%3D76
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-05-17T17:17:04+08:00 ] 112.17.246.93 /Home/center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-05-17T18:12:52+08:00 ] 112.17.246.93 /Home/weixin/login/?url=http%3A%2F%2Fshopceshi.sunday.so%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-05-17T18:12:54+08:00 ] 112.17.246.93 /Home/weixin/callback/?code=051cRjY41G4SoP1a4zW41m0yY41cRjY7&state=d69ea942489fdaba776176631fcaf945c2872f37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `openid` = 'oGklKuMn3nykWhCXcZlRPQFVUhdg' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-17T18:12:54+08:00 ] 112.17.246.93 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `carousel` [ RunTime:0.0003s ]
+SQL: SELECT `position`,`carouselimg`,`url` FROM `carousel` WHERE `shopid` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `custom_page` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `custom_page` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `classify` WHERE `shopid` = 1 AND `pid` = 0 AND `isshow` = 1 ORDER BY sort+1 desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `weixin_config` [ RunTime:0.0003s ]
+SQL: SELECT `value` FROM `weixin_config` WHERE `name` = 'phone' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 120 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 179 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 200 行.
+NOTIC: [8] Undefined index: title /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 221 行.
+NOTIC: [8] Undefined variable: data /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 259 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-05-17T18:13:01+08:00 ] 112.17.246.93 /Home/goods/detail/?id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 69 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `carriage` [ RunTime:0.0003s ]
+SQL: SELECT `price` FROM `carriage` WHERE `carriageid` = 11 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `love` [ RunTime:0.0003s ]
+SQL: SELECT `commodityid` FROM `love` WHERE `shopid` = 1 AND `uid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 74 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 77 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 79 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `commodity_sku` [ RunTime:0.0003s ]
+SQL: SELECT `shuxingji` FROM `commodity_sku` WHERE `commodityid` = 69 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `weixin_config` [ RunTime:0.0004s ]
+SQL: SELECT `value` FROM `weixin_config` WHERE `name` = 'phone' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [2] Illegal string offset 'title' /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 143 行.
+NOTIC: [8] Undefined variable: from /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-05-17T18:19:05+08:00 ] 112.17.246.93 /Home/goods/detail/?id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/CommodityModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [2] Missing argument 3 for Home\Model\UserModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/UserModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 69 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `carriage` [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Home\Model\LoveModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Home/Model/LoveModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `love` [ RunTime:0.0003s ]
+SQL: SELECT `commodityid` FROM `love` WHERE `shopid` = 1 AND `uid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 79 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 72 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 77 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `commodity_sku` [ RunTime:0.0004s ]
+SQL: SELECT `shuxingji` FROM `commodity_sku` WHERE `commodityid` = 69 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `weixin_config` [ RunTime:0.0003s ]
+SQL: SELECT `value` FROM `weixin_config` WHERE `name` = 'phone' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [2] Illegal string offset 'title' /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 143 行.
+NOTIC: [8] Undefined variable: from /mnt/www/html/huangwei/tmls/Runtime/Cache/Home/d7ce7c37daad1d3e356d97433c4331e1.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+

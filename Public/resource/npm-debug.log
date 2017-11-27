@@ -1,0 +1,270 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'vue-cli' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'vue-cli', null ]
+5 verbose cache add name=undefined spec="vue-cli" args=["vue-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'vue-cli',
+6 verbose parsed url   path: 'vue-cli',
+6 verbose parsed url   href: 'vue-cli' }
+7 silly lockFile 18a420e0-vue-cli vue-cli
+8 verbose lock vue-cli /home/huangwei/.npm/18a420e0-vue-cli.lock
+9 silly lockFile 18a420e0-vue-cli vue-cli
+10 silly lockFile 18a420e0-vue-cli vue-cli
+11 verbose addNamed [ 'vue-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 3d3026e0-vue-cli vue-cli@
+14 verbose lock vue-cli@ /home/huangwei/.npm/3d3026e0-vue-cli.lock
+15 silly addNameRange { name: 'vue-cli', range: '*', hasData: false }
+16 verbose url raw vue-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './vue-cli' ]
+18 verbose url resolved https://registry.npmjs.org/vue-cli
+19 info trying registry request attempt 1 at 15:00:24
+20 http GET https://registry.npmjs.org/vue-cli
+21 http 200 https://registry.npmjs.org/vue-cli
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"8CI2148S5MEDIPD1F1DWEPDPE"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '35050',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Wed, 31 Aug 2016 07:00:26 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '162',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-lcy1125-LCY',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1472626826.767028,VS0,VE0',
+22 silly registry.get     vary: 'Accept-Encoding' } ]
+23 silly addNameRange number 2 { name: 'vue-cli', range: '*', hasData: true }
+24 silly addNameRange versions [ 'vue-cli',
+24 silly addNameRange   [ '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.2',
+24 silly addNameRange     '1.1.3',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.0.2',
+24 silly addNameRange     '2.0.3',
+24 silly addNameRange     '2.0.4',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.2.0' ] ]
+25 verbose addNamed [ 'vue-cli', '2.2.0' ]
+26 verbose addNamed [ '2.2.0', '2.2.0' ]
+27 silly lockFile cc60f7bb-vue-cli-2-2-0 vue-cli@2.2.0
+28 verbose lock vue-cli@2.2.0 /home/huangwei/.npm/cc60f7bb-vue-cli-2-2-0.lock
+29 silly lockFile 35678c32-js-org-vue-cli-vue-cli-2-2-0-tgz https://registry.npmjs.org/vue-cli/-/vue-cli-2.2.0.tgz
+30 verbose lock https://registry.npmjs.org/vue-cli/-/vue-cli-2.2.0.tgz /home/huangwei/.npm/35678c32-js-org-vue-cli-vue-cli-2-2-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/vue-cli/-/vue-cli-2.2.0.tgz',
+31 verbose addRemoteTarball   'f39fabdcb065d391485cf3360048b674d2876ba2' ]
+32 info retry fetch attempt 1 at 15:00:27
+33 verbose fetch to= /home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/tmp.tgz
+34 http GET https://registry.npmjs.org/vue-cli/-/vue-cli-2.2.0.tgz
+35 http 200 https://registry.npmjs.org/vue-cli/-/vue-cli-2.2.0.tgz
+36 verbose tar unpack /home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/tmp.tgz
+37 silly lockFile 14c04f3d-27277-0-6383859906345606-package tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package
+38 verbose lock tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package /home/huangwei/.npm/14c04f3d-27277-0-6383859906345606-package.lock
+39 silly lockFile 0d60e4db-27277-0-6383859906345606-tmp-tgz tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/tmp.tgz
+40 verbose lock tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/tmp.tgz /home/huangwei/.npm/0d60e4db-27277-0-6383859906345606-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry bin/vue
+47 silly gunzTarPerm extractEntry bin/vue-init
+48 silly gunzTarPerm extractEntry bin/vue-list
+49 silly gunzTarPerm extractEntry .babelrc
+50 silly gunzTarPerm extractEntry .eslintrc
+51 silly gunzTarPerm extractEntry circle.yml
+52 silly gunzTarPerm extractEntry issue_template.md
+53 silly gunzTarPerm extractEntry lib/ask.js
+54 silly gunzTarPerm extractEntry lib/check-version.js
+55 silly gunzTarPerm extractEntry lib/eval.js
+56 silly gunzTarPerm extractEntry lib/filter.js
+57 silly gunzTarPerm extractEntry lib/generate.js
+58 silly gunzTarPerm extractEntry lib/git-user.js
+59 silly gunzTarPerm extractEntry lib/logger.js
+60 silly gunzTarPerm extractEntry lib/options.js
+61 silly gunzTarPerm extractEntry CONTRIBUTING.md
+62 silly gunzTarPerm extractEntry test/e2e/test.js
+63 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/meta.js
+64 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/template/readme.md
+65 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/meta.json
+66 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/package.json
+67 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/no.js
+68 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/yes.vue
+69 silly lockFile 14c04f3d-27277-0-6383859906345606-package tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package
+70 silly lockFile 14c04f3d-27277-0-6383859906345606-package tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package
+71 silly lockFile 0d60e4db-27277-0-6383859906345606-tmp-tgz tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/tmp.tgz
+72 silly lockFile 0d60e4db-27277-0-6383859906345606-tmp-tgz tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/tmp.tgz
+73 verbose tar pack [ '/home/huangwei/.npm/vue-cli/2.2.0/package.tgz',
+73 verbose tar pack   '/home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package' ]
+74 verbose tarball /home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+75 verbose folder /home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package
+76 silly lockFile 14c04f3d-27277-0-6383859906345606-package tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package
+77 verbose lock tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package /home/huangwei/.npm/14c04f3d-27277-0-6383859906345606-package.lock
+78 silly lockFile b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+79 verbose lock tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz /home/huangwei/.npm/b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz.lock
+80 silly lockFile 14c04f3d-27277-0-6383859906345606-package tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package
+81 silly lockFile 14c04f3d-27277-0-6383859906345606-package tar:///home/huangwei/tmp/npm-6780-SDQlUJEU/1472626827277-0.6383859906345606/package
+82 silly lockFile b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+83 silly lockFile b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+84 silly lockFile 77adf44a-angwei-npm-vue-cli-2-2-0-package /home/huangwei/.npm/vue-cli/2.2.0/package
+85 verbose lock /home/huangwei/.npm/vue-cli/2.2.0/package /home/huangwei/.npm/77adf44a-angwei-npm-vue-cli-2-2-0-package.lock
+86 silly lockFile 77adf44a-angwei-npm-vue-cli-2-2-0-package /home/huangwei/.npm/vue-cli/2.2.0/package
+87 silly lockFile 77adf44a-angwei-npm-vue-cli-2-2-0-package /home/huangwei/.npm/vue-cli/2.2.0/package
+88 verbose tar unpack /home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+89 silly lockFile fb35e1b3-angwei-npm-vue-cli-2-2-0-package tar:///home/huangwei/.npm/vue-cli/2.2.0/package
+90 verbose lock tar:///home/huangwei/.npm/vue-cli/2.2.0/package /home/huangwei/.npm/fb35e1b3-angwei-npm-vue-cli-2-2-0-package.lock
+91 silly lockFile b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+92 verbose lock tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz /home/huangwei/.npm/b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz.lock
+93 silly gunzTarPerm modes [ '755', '644' ]
+94 silly gunzTarPerm extractEntry package.json
+95 silly gunzTarPerm extractEntry .npmignore
+96 silly gunzTarPerm extractEntry README.md
+97 silly gunzTarPerm extractEntry LICENSE
+98 silly gunzTarPerm extractEntry bin/vue
+99 silly gunzTarPerm extractEntry bin/vue-init
+100 silly gunzTarPerm extractEntry bin/vue-list
+101 silly gunzTarPerm extractEntry CONTRIBUTING.md
+102 silly gunzTarPerm extractEntry .eslintrc
+103 silly gunzTarPerm extractEntry circle.yml
+104 silly gunzTarPerm extractEntry issue_template.md
+105 silly gunzTarPerm extractEntry lib/ask.js
+106 silly gunzTarPerm extractEntry lib/check-version.js
+107 silly gunzTarPerm extractEntry lib/eval.js
+108 silly gunzTarPerm extractEntry lib/filter.js
+109 silly gunzTarPerm extractEntry lib/generate.js
+110 silly gunzTarPerm extractEntry lib/git-user.js
+111 silly gunzTarPerm extractEntry lib/logger.js
+112 silly gunzTarPerm extractEntry lib/options.js
+113 silly gunzTarPerm extractEntry .babelrc
+114 silly gunzTarPerm extractEntry test/e2e/test.js
+115 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/meta.js
+116 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/template/readme.md
+117 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/meta.json
+118 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/package.json
+119 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/no.js
+120 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/yes.vue
+121 silly lockFile fb35e1b3-angwei-npm-vue-cli-2-2-0-package tar:///home/huangwei/.npm/vue-cli/2.2.0/package
+122 silly lockFile fb35e1b3-angwei-npm-vue-cli-2-2-0-package tar:///home/huangwei/.npm/vue-cli/2.2.0/package
+123 silly lockFile b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+124 silly lockFile b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+125 verbose chmod /home/huangwei/.npm/vue-cli/2.2.0/package.tgz 644
+126 verbose chown /home/huangwei/.npm/vue-cli/2.2.0/package.tgz [ 1004, 1004 ]
+127 silly lockFile 35678c32-js-org-vue-cli-vue-cli-2-2-0-tgz https://registry.npmjs.org/vue-cli/-/vue-cli-2.2.0.tgz
+128 silly lockFile 35678c32-js-org-vue-cli-vue-cli-2-2-0-tgz https://registry.npmjs.org/vue-cli/-/vue-cli-2.2.0.tgz
+129 silly lockFile cc60f7bb-vue-cli-2-2-0 vue-cli@2.2.0
+130 silly lockFile cc60f7bb-vue-cli-2-2-0 vue-cli@2.2.0
+131 silly lockFile 3d3026e0-vue-cli vue-cli@
+132 silly lockFile 3d3026e0-vue-cli vue-cli@
+133 silly resolved [ { name: 'vue-cli',
+133 silly resolved     version: '2.2.0',
+133 silly resolved     description: 'A simple CLI for scaffolding Vue.js projects.',
+133 silly resolved     preferGlobal: true,
+133 silly resolved     bin: { vue: 'bin/vue' },
+133 silly resolved     repository: { type: 'git', url: 'git+https://github.com/vuejs/vue-cli.git' },
+133 silly resolved     keywords: [ 'vue', 'cli', 'spa' ],
+133 silly resolved     author: { name: 'Evan You' },
+133 silly resolved     license: 'MIT',
+133 silly resolved     bugs: { url: 'https://github.com/vuejs/vue-cli/issues' },
+133 silly resolved     homepage: 'https://github.com/vuejs/vue-cli#readme',
+133 silly resolved     main: 'lib/index.js',
+133 silly resolved     scripts:
+133 silly resolved      { test: 'npm run lint && npm run e2e',
+133 silly resolved        lint: 'eslint test/e2e/test.js lib bin/* --env mocha',
+133 silly resolved        e2e: 'rimraf test/e2e/mock-template-build/*.* && cross-env BABEL_ENV=development mocha test/e2e/test.js --slow 1000 --compilers js:babel-core/register' },
+133 silly resolved     dependencies:
+133 silly resolved      { async: '^2.0.0-rc.2',
+133 silly resolved        chalk: '^1.1.1',
+133 silly resolved        commander: '^2.9.0',
+133 silly resolved        consolidate: '^0.14.0',
+133 silly resolved        'download-git-repo': '^0.1.1',
+133 silly resolved        handlebars: '^4.0.5',
+133 silly resolved        inquirer: '^0.12.0',
+133 silly resolved        metalsmith: '^2.1.0',
+133 silly resolved        minimatch: '^3.0.0',
+133 silly resolved        ora: '^0.2.1',
+133 silly resolved        'read-metadata': '^1.0.0',
+133 silly resolved        request: '^2.67.0',
+133 silly resolved        rimraf: '^2.5.0',
+133 silly resolved        semver: '^5.1.0',
+133 silly resolved        uid: '0.0.2',
+133 silly resolved        'validate-npm-package-name': '^2.2.2' },
+133 silly resolved     devDependencies:
+133 silly resolved      { 'babel-core': '^6.7.4',
+133 silly resolved        'babel-preset-es2015': '^6.6.0',
+133 silly resolved        'babel-preset-stage-2': '^6.5.0',
+133 silly resolved        chai: '^3.5.0',
+133 silly resolved        'cross-env': '^1.0.7',
+133 silly resolved        eslint: '^2.7.0',
+133 silly resolved        'eslint-config-standard': '^5.1.0',
+133 silly resolved        'eslint-plugin-promise': '^1.1.0',
+133 silly resolved        'eslint-plugin-standard': '^1.3.2',
+133 silly resolved        mocha: '^2.4.5' },
+133 silly resolved     engines: { node: '>=4.0.0' },
+133 silly resolved     readme: '# vue-cli [![Build Status](https://img.shields.io/circleci/project/vuejs/vue-cli/master.svg)](https://circleci.com/gh/vuejs/vue-cli) [![npm package](https://img.shields.io/npm/v/vue-cli.svg)](https://www.npmjs.com/package/vue-cli)\n\nA simple CLI for scaffolding Vue.js projects.\n\n### Installation\n\nPrerequisites: [Node.js](https://nodejs.org/en/) (>=4.x, 5.x preferred) and [Git](https://git-scm.com/).\n\n``` bash\n$ npm install -g vue-cli\n```\n\n### Usage\n\n``` bash\n$ vue init <template-name> <project-name>\n```\n\nExample:\n\n``` bash\n$ vue init webpack my-project\n```\n\nThe above command pulls the template from [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack), prompts for some information, and generates the project at `./my-project/`.\n\n### Official Templates\n\nThe purpose of official Vue project templates are to provide opinionated, battery-included development tooling setups so that users can get started with actual app code as fast as possible. However, these templates are un-opinionated in terms of how you structure your app code and what libraries you use in addition to Vue.js.\n\nAll official project templates are repos in the [vuejs-templates organization](https://github.com/vuejs-templates). When a new template is added to the organization, you will be able to run `vue init <template-name> <project-name>` to use that template. You can also run `vue list` to see all available official templates.\n\nCurrent available templates include:\n\n- [webpack](https://github.com/vuejs-templates/webpack) - A full-featured Webpack + vue-loader setup with hot reload, linting, testing & css extraction.\n\n- [webpack-simple](https://github.com/vuejs-templates/webpack-simple) - A simple Webpack + vue-loader setup for quick prototyping.\n\n- [browserify](https://github.com/vuejs-templates/browserify) - A full-featured Browserify + vueify setup with hot-reload, linting & unit testing.\n\n- [browserify-simple](https://github.com/vuejs-templates/browserify-simple) - A simple Browserify + vueify setup for quick prototyping.\n\n- [simple](https://github.com/vuejs-templates/simple) - The simplest possible Vue setup in a single HTML file\n\n### Custom Templates\n\nIt\'s unlikely to make everyone happy with the official templates. You can simply fork an official template and then use it via `vue-cli` with:\n\n``` bash\nvue init username/repo my-project\n```\n\nWhere `username/repo` is the GitHub repo shorthand for your fork.\n\nThe shorthand repo notation is passed to [download-git-repo](https://github.com/flipxfx/download-git-repo) so you can also use things like `bitbucket:username/repo` for a Bitbucket repo and `username/repo#branch` for tags or branches.\n\nIf you would like to download from a private repository use the `--clone` flag and the cli will use `git clone` so your SSH keys are used.\n\n### Local Templates\n\nInstead of a GitHub repo, you can also use a template on your local file system:\n\n``` bash\nvue init ~/fs/path/to-custom-template my-project\n```\n\n### Writing Custom Templates from Scratch\n\n- A template repo **must** have a `template` directory that holds the template files.\n\n- A template repo **may** have a metadata file for the template which can be either a `meta.js` or `meta.json` file. It can contain the following fields:\n\n  - `prompts`: used to collect user options data;\n\n  - `filters`: used to conditional filter files to render.\n\n  - `completeMessage`: the message to be displayed to the user when the template has been generated. You can include custom instruction here.\n\n#### prompts\n\nThe `prompts` field in the metadata file should be an object hash containing prompts for the user. For each entry, the key is the variable name and the value is an [Inquirer.js question object](https://github.com/SBoudrias/Inquirer.js/#question). Example:\n\n``` json\n{\n  "prompts": {\n    "name": {\n      "type": "string",\n      "required": true,\n      "message": "Project name"\n    }\n  }\n}\n```\n\nAfter all prompts are finished, all files inside `template` will be rendered using [Handlebars](http://handlebarsjs.com/), with the prompt results as the data.\n\n##### Conditional Prompts\n\nA prompt can be made conditional by adding a `when` field, which should be a JavaScript expression evaluated with data collected from previous prompts. For example:\n\n``` json\n{\n  "prompts": {\n    "lint": {\n      "type": "confirm",\n      "message": "Use a linter?"\n    },\n    "lintConfig": {\n      "when": "lint",\n      "type": "list",\n      "message": "Pick a lint config",\n      "choices": [\n        "standard",\n        "airbnb",\n        "none"\n      ]\n    }\n  }\n}\n```\n\nThe prompt for `lintConfig` will only be triggered when the user answered yes to the `lint` prompt.\n\n##### Pre-registered Handlebars Helpers\n\nTwo commonly used Handlebars helpers, `if_eq` and `unless_eq` are pre-registered:\n\n``` handlebars\n{{#if_eq lintConfig "airbnb"}};{{/if_eq}}\n```\n\n##### Custom Handlebars Helpers\n\nYou may want to register additional Handlebars helpers using the `helpers` property in the metadata file. The object key is the helper name:\n\n``` js\nmodule.exports = {\n  helpers: {\n    lowercase: str => str.toLowerCase()\n  }\n}\n```\n\nUpon registration, they can be used as follows:\n\n``` handlebars\n{{ lowercase name }}\n```\n\n#### File filters\n\nThe `filters` field in the metadata file should be an object hash containing file filtering rules. For each entry, the key is a [minimatch glob pattern](https://github.com/isaacs/minimatch) and the value is a JavaScript expression evaluated in the context of prompt answers data. Example:\n\n``` json\n{\n  "filters": {\n    "test/**/*": "needTests"\n  }\n}\n```\n\nFiles under `test` will only be generated if the user answered yes to the prompt for `needTests`.\n\nNote that the `dot` option for minimatch is set to `true` so glob patterns would also match dotfiles by default.\n\n### License\n\n[MIT](http://opensource.org/licenses/MIT)\n',
+133 silly resolved     readmeFilename: 'README.md',
+133 silly resolved     _id: 'vue-cli@2.2.0',
+133 silly resolved     dist: { shasum: '72e2143b4f9746b3f814a6f60c82b27fd387e14d' },
+133 silly resolved     _from: 'vue-cli@',
+133 silly resolved     _resolved: 'https://registry.npmjs.org/vue-cli/-/vue-cli-2.2.0.tgz' } ]
+134 info install vue-cli@2.2.0 into /usr/local/lib
+135 info installOne vue-cli@2.2.0
+136 warn engine vue-cli@2.2.0: wanted: {"node":">=4.0.0"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+137 info /usr/local/lib/node_modules/vue-cli unbuild
+138 verbose tar unpack /home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+139 silly lockFile bbb0764a-r-local-lib-node-modules-vue-cli tar:///usr/local/lib/node_modules/vue-cli
+140 verbose lock tar:///usr/local/lib/node_modules/vue-cli /home/huangwei/.npm/bbb0764a-r-local-lib-node-modules-vue-cli.lock
+141 silly lockFile b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz
+142 verbose lock tar:///home/huangwei/.npm/vue-cli/2.2.0/package.tgz /home/huangwei/.npm/b79e39e6-ei-npm-vue-cli-2-2-0-package-tgz.lock
+143 silly gunzTarPerm modes [ '755', '644' ]
+144 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+144 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+144 error   errno: 3,
+144 error   code: 'EACCES',
+144 error   path: '/usr/local/lib/node_modules',
+144 error   fstream_type: 'Directory',
+144 error   fstream_path: '/usr/local/lib/node_modules/vue-cli',
+144 error   fstream_class: 'DirWriter',
+144 error   fstream_stack:
+144 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+144 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+144 error      'Object.oncomplete (fs.js:107:15)' ] }
+145 error Please try running this command again as root/Administrator.
+146 error System Linux 3.13.0-32-generic
+147 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "vue-cli"
+148 error cwd /home/www/shop/Public/resource
+149 error node -v v0.10.25
+150 error npm -v 1.3.10
+151 error path /usr/local/lib/node_modules
+152 error fstream_path /usr/local/lib/node_modules/vue-cli
+153 error fstream_type Directory
+154 error fstream_class DirWriter
+155 error code EACCES
+156 error errno 3
+157 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+158 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+158 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+158 error fstream_stack Object.oncomplete (fs.js:107:15)
+159 verbose exit [ 3, true ]

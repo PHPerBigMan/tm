@@ -1,0 +1,1384 @@
+[ 2017-03-30T10:00:50+08:00 ] 223.93.158.132 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0159s ]
+
+[ 2017-03-30T10:00:50+08:00 ] 223.93.158.132 /Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-03-30T10:01:12+08:00 ] 223.93.158.132 /admin/index/postlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `admin` WHERE `account` = 'admin' AND `password` = '25f9e794323b453885f5181f1b624d0b' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-03-30T10:01:12+08:00 ] 223.93.158.132 /admin/index/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-03-30T10:01:12+08:00 ] 223.93.158.132 /Admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-03-30T10:01:13+08:00 ] 223.93.158.132 /admin/index/kefu?_=1490839271258
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+
+[ 2017-03-30T10:01:20+08:00 ] 223.93.158.132 /Admin/commodity/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0164s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Commodity/lists' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/CommodityController.class.php 第 22 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/CommodityController.class.php 第 24 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/CommodityController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 ORDER BY commodityid desc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `commodity_sku` [ RunTime:0.0004s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 82 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 81 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 80 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 79 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 78 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 77 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 76 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 75 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 74 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 73 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 72 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 71 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 70 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 69 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 67 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 65 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 63 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/5e1711e547ad8ef9b61b9e48bdd43b61.php 第 40 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/5e1711e547ad8ef9b61b9e48bdd43b61.php 第 41 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/5e1711e547ad8ef9b61b9e48bdd43b61.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-03-30T13:16:13+08:00 ] 115.238.82.178 /Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008333s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2017-03-30T13:16:26+08:00 ] 115.238.82.178 /admin/index/postlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `admin` WHERE `account` = 'admin' AND `password` = '25f9e794323b453885f5181f1b624d0b' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-30T13:16:26+08:00 ] 115.238.82.178 /admin/index/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-03-30T13:16:26+08:00 ] 115.238.82.178 /Admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-03-30T13:16:26+08:00 ] 115.238.82.178 /admin/index/kefu?_=1490850986675
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+
+[ 2017-03-30T13:16:33+08:00 ] 115.238.82.178 /Admin/article/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/lists' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `shopid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE `shopid` = 1 LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-03-30T13:16:36+08:00 ] 115.238.82.178 /admin/Article/edit/?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/edit' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE `shopid` = 1 AND `articleid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-03-30T13:16:38+08:00 ] 115.238.82.178 /admin/Article/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/handle' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `article` SET `title`='购买需知' WHERE `articleid` = 1 [ RunTime:0.0083s ]
+
+[ 2017-03-30T13:16:41+08:00 ] 115.238.82.178 /Admin/carousel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CarouselModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CarouselModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `carousel` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0005s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Carousel/lists' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `carousel` WHERE `shopid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `carousel` WHERE `shopid` = 1 LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `carousel_extend` [ RunTime:0.0021s ]
+SQL: SELECT `name` FROM `carousel_extend` WHERE ( 1=1 AND extendid='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `carousel_extend` WHERE ( 1=1 AND extendid='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `carousel_extend` WHERE ( 1=1 AND extendid='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `carousel_extend` WHERE ( 1=1 AND extendid='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `carousel_extend` WHERE ( 1=1 AND extendid='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `carousel_extend` WHERE ( 1=1 AND extendid='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-03-30T13:16:45+08:00 ] 115.238.82.178 /Admin/suggest/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\SuggestModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/SuggestModel.class.php 第 6 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\SuggestModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/SuggestModel.class.php 第 6 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/SuggestModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/SuggestModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `suggest` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Suggest/lists' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `suggest` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `suggest` LIMIT 0,8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-03-30T13:16:47+08:00 ] 115.238.82.178 /Admin/article/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/lists' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `shopid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `article` WHERE `shopid` = 1 LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-03-30T13:16:49+08:00 ] 115.238.82.178 /admin/Article/edit/?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/edit' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `article` WHERE `shopid` = 1 AND `articleid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-03-30T13:17:17+08:00 ] 115.238.82.178 /admin/Article/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/handle' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `article` SET `title`='售后需知',`content`='&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;strong&gt;售后需知&lt;/strong&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:宋体;font-size:14px&quot;&gt;一、TIMES眼镜&lt;/span&gt;&lt;span style=&quot;;font-family:宋体;font-size:14px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;商城内所售商品为定制化生产产品，&lt;/span&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; color: rgb(255, 0, 0);&quot;&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;不支持&lt;/span&gt;7&lt;span style=&quot;font-family: 宋体;&quot;&gt;天无理由退换货&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;，我们采用专业冷运配送。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:宋体;font-size:14px&quot;&gt;二、&lt;/span&gt;&lt;span style=&quot;;font-family:宋体;font-size:14px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;您在收到产品后，请第一时间检查产品质量是否完好，核对品名和数量是否正确，如有问题，请拍摄照片，并在收到商品之时起&lt;/span&gt;24&lt;span style=&quot;font-family:宋体&quot;&gt;小时内联系我们或TIMES眼镜客服电话：&lt;/span&gt;&lt;span style=&quot;font-family:Calibri&quot;&gt;0571-83532266&lt;/span&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-family:Calibri&quot;&gt;9:00-17:30&lt;/span&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;）我们会及时为您处理，给您一个满意的结果。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:宋体;font-size:14px&quot;&gt;三、&lt;/span&gt;&lt;span style=&quot;;font-family:宋体;font-size:14px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;对于非江浙沪区域订单，尽管TIMES眼镜选择顺丰快递，但由于节假日快递延误等原因出现，请耐心等候，&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:宋体;font-size:14px&quot;&gt;四、&lt;/span&gt;&lt;span style=&quot;;font-family:宋体;font-size:14px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;您在拆包后，请检查眼镜的完整性。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:宋体;font-size:14px&quot;&gt;五、&lt;/span&gt;&lt;span style=&quot;;font-family:宋体;font-size:14px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;对于偏远地区客户，因物流时效原因无法进行发货，敬请谅解。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 1em; margin-bottom: 1em;&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE `articleid` = 2 [ RunTime:0.0062s ]
+
+[ 2017-03-30T13:17:20+08:00 ] 115.238.82.178 /Admin/article/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/lists' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `shopid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE `shopid` = 1 LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-03-30T13:17:20+08:00 ] 115.238.82.178 /Admin/article/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/lists' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `shopid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `article` WHERE `shopid` = 1 LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-03-30T13:17:22+08:00 ] 115.238.82.178 /admin/Article/edit/?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/edit' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `article` WHERE `shopid` = 1 AND `articleid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-03-30T13:18:09+08:00 ] 115.238.82.178 /admin/Article/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/handle' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `article` SET `title`='积分规则',`content`='&lt;p style=&quot;margin: 5px 0;text-indent: 0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-family: sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;如何成为&lt;/span&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;天明眼镜&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-size: 18px; font-family: sans-serif;&quot;&gt;代言人&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-family:sans-serif&quot;&gt;您只需购买任意一件天明眼镜商品，系统将自动生成您的天明眼镜微店，拥有您个人&lt;/span&gt;ID链接及二维码图片。&amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 18px&quot;&gt;&amp;nbsp;一级代言人&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;br/&gt;&amp;nbsp; 凡是通过您的个人ID号或二维码成功关注并购买的好友或客户，成为您的一级代言人，公司直接回馈产品消费金额&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-size: 20px; color: rgb(255, 0, 0);&quot;&gt;15&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 20px&quot;&gt;%&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;的&lt;/span&gt;“现金奖励”。&lt;br/&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-size: 18px; font-family: sans-serif;&quot;&gt;二级代言人&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;br/&gt;&amp;nbsp; 凡是通过您的一级代言人的个人ID号或二维码成功关注并购买的好友或客户，成为您的二级代言人的同时，您还可将获得回馈产品消费金额&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 20px&quot;&gt;10%&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;的&lt;/span&gt;“现金奖励”。&lt;br/&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-size: 18px; font-family: sans-serif;&quot;&gt;三级代言人&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;br/&gt;&amp;nbsp; 凡是通过您的二级代言人的个人ID号或二维码成功关注并购买的好友或客户，成为您的三级代言人的同时，您还可将获得回馈产品消费金额&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 20px&quot;&gt;5%&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;的&lt;/span&gt;“现金奖励。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0;text-indent: 0&quot;&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0;text-indent: 0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 18px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;以上规则最终解权归&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 20px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;天明眼镜&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 18px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;公司所有。&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE `articleid` = 3 [ RunTime:0.0098s ]
+
+[ 2017-03-30T13:18:10+08:00 ] 115.238.82.178 /admin/Article/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/handle' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `article` SET `title`='积分规则',`content`='&lt;p style=&quot;margin: 5px 0;text-indent: 0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-family: sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;如何成为&lt;/span&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;天明眼镜&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-size: 18px; font-family: sans-serif;&quot;&gt;代言人&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-family:sans-serif&quot;&gt;您只需购买任意一件天明眼镜商品，系统将自动生成您的天明眼镜微店，拥有您个人&lt;/span&gt;ID链接及二维码图片。&amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 18px&quot;&gt;&amp;nbsp;一级代言人&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;br/&gt;&amp;nbsp; 凡是通过您的个人ID号或二维码成功关注并购买的好友或客户，成为您的一级代言人，公司直接回馈产品消费金额&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-size: 20px; color: rgb(255, 0, 0);&quot;&gt;15&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 20px&quot;&gt;%&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;的&lt;/span&gt;“现金奖励”。&lt;br/&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-size: 18px; font-family: sans-serif;&quot;&gt;二级代言人&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;br/&gt;&amp;nbsp; 凡是通过您的一级代言人的个人ID号或二维码成功关注并购买的好友或客户，成为您的二级代言人的同时，您还可将获得回馈产品消费金额&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 20px&quot;&gt;10%&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;的&lt;/span&gt;“现金奖励”。&lt;br/&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0px; font-size: 18px; font-family: sans-serif;&quot;&gt;三级代言人&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;br/&gt;&amp;nbsp; 凡是通过您的二级代言人的个人ID号或二维码成功关注并购买的好友或客户，成为您的三级代言人的同时，您还可将获得回馈产品消费金额&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 20px&quot;&gt;5%&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;的&lt;/span&gt;“现金奖励。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0;text-indent: 0&quot;&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 16px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 5px 0;text-indent: 0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 18px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;以上规则最终解权归&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 20px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;天明眼镜&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;letter-spacing: 0;font-size: 18px&quot;&gt;&lt;span style=&quot;font-family:sans-serif&quot;&gt;公司所有。&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE `articleid` = 3 [ RunTime:0.0126s ]
+
+[ 2017-03-30T13:18:10+08:00 ] 115.238.82.178 /Admin/article/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/lists' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `shopid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE `shopid` = 1 LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-03-30T13:18:13+08:00 ] 115.238.82.178 /admin/Article/edit/?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Article/edit' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `article` WHERE `shopid` = 1 AND `articleid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-03-30T13:18:50+08:00 ] 115.238.82.178 /Admin/order/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Order/lists' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uid /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 23 行.
+NOTIC: [8] Undefined index: start /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 27 行.
+NOTIC: [8] Undefined index: end /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 28 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 30 行.
+NOTIC: [8] Undefined index: uniqueid /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 31 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 34 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `create_time` > '2017-03-01 00:00:00' AND `create_time` < '2017-03-30 23:59:59'  ) AND `shopid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order` WHERE ( `create_time` > '2017-03-01 00:00:00' AND `create_time` < '2017-03-30 23:59:59'  ) AND `shopid` = 1 ORDER BY create_time desc LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_commodity_snop` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='22' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='21' )  [ RunTime:0.0006s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='20' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='19' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='18' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='17' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='16' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='15' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='14' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='13' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='12' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='11' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='10' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='9' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='8' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order` WHERE ( `create_time` > '2017-03-01 00:00:00' AND `create_time` < '2017-03-30 23:59:59'  ) AND `shopid` = 1 ORDER BY create_time desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='22' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='21' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='20' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='19' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='18' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='16' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='15' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='14' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='13' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='9' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='8' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='7' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='6' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='5' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='4' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='3' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='2' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='3' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 42 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 60 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 61 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 62 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 63 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 64 行.
+NOTIC: [8] Undefined index: uniqueid /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-03-30T13:18:51+08:00 ] 115.238.82.178 /Admin/order/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0005s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Order/lists' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 23 行.
+NOTIC: [8] Undefined index: start /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 27 行.
+NOTIC: [8] Undefined index: end /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 28 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 30 行.
+NOTIC: [8] Undefined index: uniqueid /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 31 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 34 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `create_time` > '2017-03-01 00:00:00' AND `create_time` < '2017-03-30 23:59:59'  ) AND `shopid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order` WHERE ( `create_time` > '2017-03-01 00:00:00' AND `create_time` < '2017-03-30 23:59:59'  ) AND `shopid` = 1 ORDER BY create_time desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `order_commodity_snop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='22' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='21' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='20' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='19' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='18' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='16' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='15' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='14' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='13' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='9' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='8' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order` WHERE ( `create_time` > '2017-03-01 00:00:00' AND `create_time` < '2017-03-30 23:59:59'  ) AND `shopid` = 1 ORDER BY create_time desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='22' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='21' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='20' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='19' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='18' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='16' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='15' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='14' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='13' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='9' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='8' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='7' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='6' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='5' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='4' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='3' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='2' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='1' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='3' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 42 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 60 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 61 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 62 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 63 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 64 行.
+NOTIC: [8] Undefined index: uniqueid /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-03-30T13:18:54+08:00 ] 115.238.82.178 /admin/Order/export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0005s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Order/export' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-03-30T13:20:54+08:00 ] 115.238.82.178 /admin/Order/detail/?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Order/detail' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order` WHERE `orderid` = 22 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_commodity_snop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='22' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_extend` [ RunTime:0.0187s ]
+SQL: SELECT `express`,`couriernumber`,`settime`,`extendid` FROM `order_extend` WHERE ( 1=1 AND orderid='22' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/55e9c06586cb1ab9ceb1f389a6a6112c.php 第 153 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/55e9c06586cb1ab9ceb1f389a6a6112c.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-03-30T13:27:25+08:00 ] 115.238.82.178 /Admin/commodity/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0006s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Commodity/lists' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/CommodityController.class.php 第 22 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/CommodityController.class.php 第 24 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/CommodityController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 ORDER BY commodityid desc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `commodity_sku` [ RunTime:0.0004s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 82 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 81 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 80 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 79 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 78 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 77 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 76 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 75 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 74 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 73 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 72 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 71 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 70 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 69 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 67 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 65 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 63 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/5e1711e547ad8ef9b61b9e48bdd43b61.php 第 40 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/5e1711e547ad8ef9b61b9e48bdd43b61.php 第 41 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/5e1711e547ad8ef9b61b9e48bdd43b61.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-03-30T13:55:22+08:00 ] 183.157.192.60 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+
+[ 2017-03-30T13:55:22+08:00 ] 183.157.192.60 /Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-03-30T13:55:24+08:00 ] 183.157.192.60 /admin/index/postlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `admin` WHERE `account` = 'admin' AND `password` = '25f9e794323b453885f5181f1b624d0b' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-03-30T13:55:24+08:00 ] 183.157.192.60 /admin/index/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-03-30T13:55:24+08:00 ] 183.157.192.60 /Admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-03-30T13:55:24+08:00 ] 183.157.192.60 /admin/index/kefu?_=1490853325800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+
+[ 2017-03-30T13:55:26+08:00 ] 183.157.192.60 /Admin/order/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Order/lists' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uid /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 23 行.
+NOTIC: [8] Undefined index: start /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 27 行.
+NOTIC: [8] Undefined index: end /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 28 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 30 行.
+NOTIC: [8] Undefined index: uniqueid /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 31 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 34 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/App/Admin/Controller/OrderController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `create_time` > '2017-03-01 00:00:00' AND `create_time` < '2017-03-30 23:59:59'  ) AND `shopid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order` WHERE ( `create_time` > '2017-03-01 00:00:00' AND `create_time` < '2017-03-30 23:59:59'  ) AND `shopid` = 1 ORDER BY create_time desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_commodity_snop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='22' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='21' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='20' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='19' )  [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='18' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='17' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='16' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='15' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='14' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='13' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='12' )  [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='11' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='10' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='9' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='8' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order` WHERE ( `create_time` > '2017-03-01 00:00:00' AND `create_time` < '2017-03-30 23:59:59'  ) AND `shopid` = 1 ORDER BY create_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='22' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='21' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='20' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='19' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='8' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='18' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='16' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='15' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='14' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='13' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='9' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='6' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='8' )  [ RunTime:0.0001s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='7' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='6' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='5' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='5' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='4' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='3' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='2' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='4' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `order_commodity_snop` WHERE ( 1=1 AND orderid='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`id`,`img`,`first`,`second`,`three`,`openid` FROM `user` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `address` WHERE ( 1=1 AND addressid='3' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 42 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 60 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 61 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 62 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 63 行.
+NOTIC: [8] Undefined index: status /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 64 行.
+NOTIC: [8] Undefined index: uniqueid /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/a9feec867088b4778810df6c68ee6e53.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-03-30T16:13:57+08:00 ] 223.93.158.132 /admin/index/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+
+[ 2017-03-30T16:13:57+08:00 ] 223.93.158.132 /Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+

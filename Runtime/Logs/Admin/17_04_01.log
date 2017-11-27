@@ -1,0 +1,483 @@
+[ 2017-04-01T14:38:46+08:00 ] 115.238.82.178 /Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2017-04-01T15:08:32+08:00 ] 115.238.82.178 /Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-04-01T15:08:37+08:00 ] 115.238.82.178 /Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2017-04-01T15:10:03+08:00 ] 115.238.82.178 /admin/index/postlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `admin` WHERE `account` = 'admin' AND `password` = '25f9e794323b453885f5181f1b624d0b' LIMIT 1   [ RunTime:0.0097s ]
+
+[ 2017-04-01T15:10:03+08:00 ] 115.238.82.178 /admin/index/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-04-01T15:10:03+08:00 ] 115.238.82.178 /Admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-04-01T15:10:03+08:00 ] 115.238.82.178 /admin/index/kefu?_=1491030603282
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+
+[ 2017-04-01T15:46:00+08:00 ] 115.238.82.178 /Admin/commodity/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+
+[ 2017-04-01T15:46:01+08:00 ] 115.238.82.178 /Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-04-01T15:46:09+08:00 ] 115.238.82.178 /admin/index/postlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /mnt/www/html/huangwei/tmls/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `admin` WHERE `account` = 'admin' AND `password` = '25f9e794323b453885f5181f1b624d0b' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T15:46:09+08:00 ] 115.238.82.178 /admin/index/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2017-04-01T15:46:09+08:00 ] 115.238.82.178 /Admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-04-01T15:46:09+08:00 ] 115.238.82.178 /admin/index/kefu?_=1491032769791
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+
+[ 2017-04-01T15:46:17+08:00 ] 115.238.82.178 /admin/index/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-04-01T15:46:17+08:00 ] 115.238.82.178 /Admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-04-01T15:46:17+08:00 ] 115.238.82.178 /admin/index/kefu?_=1491032777361
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\AdminModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/AdminModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+
+[ 2017-04-01T15:46:20+08:00 ] 115.238.82.178 /Admin/commodity/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0110s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0359s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Commodity/lists' LIMIT 1   [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/CommodityController.class.php 第 22 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/CommodityController.class.php 第 24 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/CommodityController.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0167s ]
+SQL: SELECT * FROM `commodity` WHERE `shopid` = 1 AND `type` = 1 ORDER BY commodityid desc LIMIT 0,20   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `commodity_sku` [ RunTime:0.0021s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 82 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 81 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 80 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 79 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 78 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 77 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 76 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 75 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 74 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 73 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 72 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 71 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 70 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 69 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 67 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 65 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(stock) AS tp_sum FROM `commodity_sku` WHERE `commodityid` = 63 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/5e1711e547ad8ef9b61b9e48bdd43b61.php 第 40 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/5e1711e547ad8ef9b61b9e48bdd43b61.php 第 41 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/5e1711e547ad8ef9b61b9e48bdd43b61.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-04-01T15:46:23+08:00 ] 115.238.82.178 /admin/Commodity/edit/?id=82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\CommodityModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/CommodityModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `commodity` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/Commodity/edit' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `carriage` [ RunTime:0.0019s ]
+SQL: SELECT `carriageid`,`title` FROM `carriage` WHERE `shopid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `commodity` WHERE `commodityid` = 82 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `commodity_sku` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `commodity_sku` WHERE `commodityid` = 82  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\SpecificationsModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/SpecificationsModel.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\SpecificationsModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/SpecificationsModel.class.php 第 9 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/SpecificationsModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/SpecificationsModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `specifications` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `specifications` WHERE `shopid` = 1  [ RunTime:0.0223s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ClassifyModel::__construct(), called in /mnt/www/html/huangwei/tmls/ThinkPHP/Common/functions.php on line 588 and defined /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: tablePrefix /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+NOTIC: [8] Undefined variable: connection /mnt/www/html/huangwei/tmls/App/Admin/Model/ClassifyModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `classify` WHERE `shopid` = 1 AND `pid` = 0  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `classify` WHERE `shopid` = 1 AND `pid` = 21  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classify` WHERE `shopid` = 1 AND `pid` = 22  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `classify` WHERE `shopid` = 1 AND `pid` = 23  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-04-01T15:46:42+08:00 ] 115.238.82.178 /Admin/user/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `admin_group` [ RunTime:0.0004s ]
+SQL: SELECT `rule` FROM `admin_group` WHERE `gid` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `admin_rule` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `admin_rule` WHERE `identifying` = '/admin/User/lists' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/UserController.class.php 第 22 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/App/Admin/Controller/UserController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `shopid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `shopid` = 1 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: hw /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/ce184ec0bf5f252625f87380ee1d85bf.php 第 26 行.
+NOTIC: [8] Undefined index: hw /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/ce184ec0bf5f252625f87380ee1d85bf.php 第 38 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/ce184ec0bf5f252625f87380ee1d85bf.php 第 42 行.
+NOTIC: [8] Undefined index: type /mnt/www/html/huangwei/tmls/Runtime/Cache/Admin/ce184ec0bf5f252625f87380ee1d85bf.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+

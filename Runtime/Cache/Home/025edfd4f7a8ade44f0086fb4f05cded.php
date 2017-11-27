@@ -1,0 +1,61 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>规则中心</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/??sm.min.css,sm-extend.min.css">
+    <style>
+        .buttons-tab .button.active{color: rgb(255,12,67);border-color:rgb(255,12,67) }
+        .content-block{margin: 0px;padding-top: 10px;padding-bottom: 10px;}
+        p{margin: 0px;font-size: 13px}
+    </style>
+</head>
+<body>
+<div class="page-group">
+    <div class="page">
+        <div class="content">
+            <div class="buttons-tab">
+                <a href="#tab1" class="tab-link active button">购买需知</a>
+                <a href="#tab2" class="tab-link button">售后需知</a>
+                <a href="#tab3" class="tab-link button">积分规则</a>
+                <a href="#tab4" class="tab-link button">会员规则</a>
+            </div>
+            <div class="content-block" style="background: #fff;margin-top: 0px">
+                <div class="tabs">
+                    <div id="tab1" class="tab active">
+                        <div class="content-block">
+                            <?php echo (htmlspecialchars_decode($data[0]["content"])); ?>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab">
+                        <div class="content-block">
+                            <?php echo (htmlspecialchars_decode($data[1]["content"])); ?>
+                        </div>
+                    </div>
+                    <div id="tab3" class="tab">
+                        <div class="content-block">
+                            <?php echo (htmlspecialchars_decode($data[2]["content"])); ?>
+                        </div>
+                    </div>
+                    <div id="tab4" class="tab">
+                        <div class="content-block">
+                            <?php echo (htmlspecialchars_decode($data[3]["content"])); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='<?php echo C('CDN_PATH');?>/Public/resource/hw/js/config.js?<?php echo C('CDN_VERSION');?>' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/??sm.min.js,sm-extend.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='<?php echo C('CDN_PATH');?>/Public/resource/hw/js/demos.js?<?php echo C('CDN_VERSION');?>' charset='utf-8'></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ed89d293-4d1a-49fa-91d0-405bffe44cc0" name="tianming" url="http://121.42.235.170">
+        <fileTransfer host="121.42.235.170" port="22" rootFolder="/mnt/www/html/huangwei/tmls" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
